@@ -1,57 +1,99 @@
 body{
-    background-color:black;
+   background-color: #666;
     margin: auto;
     width: 50%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: #ccc;
     text-align: none;
+    align-content: center;
+    padding: 0px;
+   background-position: top;
+   background-repeat: no-repeat; 
+   background-size: cover;
  }
- h1{
-    font-size: 30px;
+ p{
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: #ccc;
     text-align: center;
  }
  a {
-    color: #cc0000;
+    color: white;
     text-decoration: none;
+    font-weight: bolder;
  }
  a:hover {
-    color: white;
+    color: red;
  }
  li{
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     color: #ccc;
+    list-style-type: square;
  }
  img{
-    border-radius: 20px;
-    border: 1px solid grey;
-    width: 100%;
-    padding: 9px;
-    margin: 10px;
+    border-radius: 10px;
+    max-width: 95%;
+    padding: 5px;
+    margin: auto;
  }
  .red-background{
-    background-color: #990000;
-    padding: 10px;
+    background-color: #660000;
+    text-align: left;
+    padding: 5px 5px 5px 0px;
     border-radius: 10px;
-    margin: 10px;
-    width: 100%;
+    margin: auto;
+    max-width: 220px;
+    height: 250px   
  }
  .grey-background{
-    background-color: grey;
     text-align: center;
-    padding: 10px;
+    vertical-align:text-bottom;
+    padding: 0px;
     border-radius: 10px;
-    margin: 10px;
-    width: 100%;
+    margin: auto;
+    max-width: 240px;
+    height: 120px
  }
  button{
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    font-size: 100%;
+    font-size: 70%;
     border-radius: 5px;
-    border: 1px solid #cc0000;
+    border: 1px solid #666;
     background-color: #990000;
+ }
+ #window{
+   background-image: url(window.png);
+   background-position: top;
+   background-repeat: no-repeat; 
+   background-size: content;
+   vertical-align:text-bottom;
+ }
+ #window1{
+   background-image: url(window.png);
+   background-position: bottom;
+   background-repeat: no-repeat; 
+   background-size: content;
+ }
+ #black {
+   background-color: black;
+   border: 1px solid #444;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 228px;
+    height: auto;
+ }
+ #red {
+   background-color: #660000;
+   border: 1px solid #660000;
+    text-align: left;
+    padding: 5px 10px 5px 0px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 228px;
+    height: auto;
  }
