@@ -1,16 +1,8 @@
 body{
-   background-color: #666;
-    margin: auto;
-    width: 50%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 100%;
+   background-color: #999;
     color: #ccc;
-    text-align: none;
-    align-content: center;
     padding: 0px;
-   background-position: top;
-   background-repeat: no-repeat; 
-   background-size: cover;
+    margin: 0px;
  }
  p{
     font-size: 20px;
@@ -38,23 +30,13 @@ body{
     padding: 5px;
     margin: auto;
  }
- .red-background{
-    background-color: #660000;
-    text-align: left;
-    padding: 5px 5px 5px 0px;
-    border-radius: 10px;
-    margin: auto;
-    max-width: 220px;
-    height: 250px   
- }
- .grey-background{
+ .red {
+   background-color: #770000;
     text-align: center;
     vertical-align:text-bottom;
     padding: 0px;
-    border-radius: 10px;
     margin: auto;
-    max-width: 240px;
-    height: 120px
+    width: 100%;
  }
  button{
     font-family: 'Courier New', Courier, monospace;
@@ -71,12 +53,10 @@ body{
    background-size: content;
    vertical-align:text-bottom;
  }
- #window1{
-   background-image: url(window.png);
-   background-position: bottom;
-   background-repeat: no-repeat; 
-   background-size: content;
- }
+ .responsive {
+   max-width: 100%;
+   height: auto;
+}
  #black {
    background-color: black;
    border: 1px solid #444;
@@ -88,7 +68,7 @@ body{
     height: auto;
  }
  #red {
-   background-color: #660000;
+   background-color: #770000;
    border: 1px solid #660000;
     text-align: left;
     padding: 5px 10px 5px 0px;
